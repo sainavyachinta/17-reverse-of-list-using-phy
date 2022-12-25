@@ -1,0 +1,6 @@
+def Reverse(l):
+    new_l=l[::-1]
+    return new_l
+n=int(input())5
+l=list(map(int,input().split()))
+print(Reverse(l))
